@@ -1,6 +1,11 @@
 // wrap in load event
-alert("Hello! I am an alert box!!");
-// canvas
+window.addEventListener('load', function(){
+    // canvas
+    const canvas = document.getElementById("canvas1");
+    const ctx = canvas.getContext("2d");
+    
+    const CANVAS_WIDTH = (canvas.width = 800);//same as css width
+    const CANVAS_HEIGHT = (canvas.height = 600);//same as css width
 
 // player class
     // update class
@@ -9,3 +14,7 @@ alert("Hello! I am an alert box!!");
 // variables
 
 // animate functions
+
+
+
+})
