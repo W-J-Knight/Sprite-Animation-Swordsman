@@ -1,3 +1,35 @@
 /* controls */
+.controls,
+section,
+option {
+  font-size: 25px;
+}
+
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* canvas */
+#canvas1 {
+  border: 5px solid black;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 600px;
+}
+
 /* credits */
+#credits {
+  position: absolute;
+  z-index: 10;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
