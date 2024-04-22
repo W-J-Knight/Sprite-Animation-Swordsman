@@ -21,9 +21,7 @@ window.addEventListener("load", function () {
     // update class
     update() {
       this.move = this.movesObject[this.defaultMove];
-      console.log(`update this.move ${this.defaultMove}`);
       this.src = this.move.src;
-      console.log(`update this.src ${this.src}`);
       this.maxFrames = this.move.maxFrames;
       this.movesStaggerFrames = this.move.movesStaggerFrames;
     }
@@ -107,7 +105,6 @@ window.addEventListener("load", function () {
   player_1.defaultMove = "idle";
   const dropdown = document.getElementById("animations");
   dropdown.addEventListener("change", function (e) {
-    // console.log(e.target.value)
     player_1.defaultMove = e.target.value;
   });
 
