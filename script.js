@@ -51,52 +51,52 @@ window.addEventListener("load", function () {
   // move list~
   const moveList = {
     idle: {
-      src: "../assets/swordsman/Idle.png",
+      src: "./assets/swordsman/Idle.png",
       maxFrames: 8,
       movesStaggerFrames: 8,
     },
     idle2: {
-      src: "../assets/swordsman/Idle_2.png",
+      src: "./assets/swordsman/Idle_2.png",
       maxFrames: 3,
       movesStaggerFrames: 8,
     },
     walk: {
-      src: "../assets/swordsman/Walk.png",
+      src: "./assets/swordsman/Walk.png",
       maxFrames: 8,
       movesStaggerFrames: 12,
     },
     run: {
-      src: "../assets/swordsman/Run.png",
+      src: "./assets/swordsman/Run.png",
       maxFrames: 8,
       movesStaggerFrames: 4,
     },
     jump: {
-      src: "../assets/swordsman/Jump.png",
+      src: "./assets/swordsman/Jump.png",
       maxFrames: 8,
       movesStaggerFrames: 5,
     },
     attack1: {
-      src: "../assets/swordsman/Attack_1.png",
+      src: "./assets/swordsman/Attack_1.png",
       maxFrames: 6,
       movesStaggerFrames: 5,
     },
     attack2: {
-      src: "../assets/swordsman/Attack_2.png",
+      src: "./assets/swordsman/Attack_2.png",
       maxFrames: 2,
       movesStaggerFrames: 5,
     },
     attack3: {
-      src: "../assets/swordsman/Attack_3.png",
+      src: "./assets/swordsman/Attack_3.png",
       maxFrames: 4,
       movesStaggerFrames: 5,
     },
     hurt: {
-      src: "../assets/swordsman/Hurt.png",
+      src: "./assets/swordsman/Hurt.png",
       maxFrames: 3,
       movesStaggerFrames: 5,
     },
     dying: {
-      src: "../assets/swordsman/Dead.png",
+      src: "./assets/swordsman/Dead.png",
       maxFrames: 3,
       movesStaggerFrames: 18,
     },
